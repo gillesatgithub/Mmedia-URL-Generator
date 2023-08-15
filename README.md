@@ -107,3 +107,6 @@ For any issues or suggestions, please create an issue on the GitHub repository.
 Author
 
 Created by gilles@votk.com
+
+thanks to "github.com/bobbykjack/sort-table-js" for his table sort script
+
