@@ -56,7 +56,7 @@ cd $2
 find -type f \( -name "*.mp4" -o -name "*.mkv" -o -name "*.avi" \) -printf '%CY%Cm%Cd\t%p\n'|sort -r -n|cut -c 12- > /tmp/$1
 
 while read file; do
-	perl ${BASEPRGM}/mediainfo4.pl "$file" "$1" "$BASEHTML" $SRVRINFO
+	perl ${BASEPRGM}/mediainfo.pl "$file" "$1" "$BASEHTML" $SRVRINFO
 done < /tmp/$1
 
 echo "
