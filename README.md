@@ -1,7 +1,5 @@
 # Mmedia-URL-Generator
 
-*** Work in progress ***
-
 Multimedia URL Generator
 Overview
 
@@ -11,6 +9,7 @@ containing URLs constructed based on user-provided base paths. This
 script simplifies the process of creating a list of multimedia URLs
 for web-based presentations, galleries, or any other use case where
 multimedia files need to be accessible via URLs.
+The script will also generate a wrapper to play accompagning "vtt" file in a browser.
 
 Features
 
